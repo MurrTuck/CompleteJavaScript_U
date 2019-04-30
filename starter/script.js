@@ -38,28 +38,54 @@
 // **************************************
 // Basic Oporators
 
-var year, yearMurr, yearKels;
-year = 2019
-ageMurr = 34;
-ageKels = 33
+// var year, yearMurr, yearKels;
+// year = 2019
+// ageMurr = 34;
+// ageKels = 33
 
-// Math operators
-yearMurr = year - ageMurr;
-yearKels = year - ageKels;
+// // Math operators
+// yearMurr = year - ageMurr;
+// yearKels = year - ageKels;
 
-console.log(yearMurr)
+// console.log(yearMurr)
 
-console.log(year + 5)
-console.log(year * 5)
-console.log(year / 5)
+// console.log(year + 5)
+// console.log(year * 5)
+// console.log(year / 5)
 
-// Logical operators
-var whosOlder = ageMurr < ageKels;
-console.log(whosOlder)
+// // Logical operators
+// var whosOlder = ageMurr < ageKels;
+// console.log(whosOlder)
 
-// typof Operator
-console.log(typeof whosOlder)
-console.log(typeof ageMurr);
-console.log(typeof 'Murr is older than Kels');
-var x;
-console.log(typeof x);
+// // typof Operator
+// console.log(typeof whosOlder)
+// console.log(typeof ageMurr);
+// console.log(typeof 'Murr is older than Kels');
+// var x;
+// console.log(typeof x);
+
+
+// var year, yearMurr, yearKels;
+// year = 2019
+// ageMurr = 34;
+// ageKels = 33;
+
+// // Math operators
+// yearMurr = year - ageMurr;
+
+// console.log(yearMurr)
+
+
+
+
+/****************************
+ * Operator Precedence
+ */
+
+var now = 2019;
+var yearMurr = 1985;
+var fullAge = 21;
+
+var isFullAge = now - yearMurr >= fullAge;
+
+console.log(isFullAge)
